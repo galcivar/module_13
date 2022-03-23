@@ -17,6 +17,44 @@ This challenge consists of three technical deliverables. You will do the followi
 
 - Optimize the model.
 
+## Alternative Models
+
+### Original
+- **Total Hidden Layers:** 1
+- **Total Hidden Nodes for Layer 1:** 9
+- **Total Hidden Nodes for Layer 2:** 6
+- **Activation Function:** linear
+- **Loss**: binary_crossentropy
+- **Epochs**: 50
+- #### Accuracy: 0.7251312136650085
+
+### Alternative 1
+- **Total Hidden Layers:** 1
+- **Total Hidden Nodes:** 20
+- **Activation Function:** linear
+- **Loss**: binary_crossentropy
+- **Epochs**: 100
+- #### Accuracy: 0.7308454513549805
+
+### Alternative 2
+- **Total Hidden Layers:** 3
+- **Total Hidden Nodes for Layer 1:** 12
+- **Total Hidden Nodes for Layer 2:** 9
+- **Total Hidden Nodes for Layer 3:** 6
+- **Activation Function:** sigmoid
+- **Loss**: binary_crossentropy
+- **Epochs**: 50
+- #### Accuracy: 0.7328279614448547
+
+### Alternative 3
+*Feature SPECIAL_CONSIDERATIONS was removed*
+- **Total Hidden Layers:** 2
+- **Total Hidden Nodes for Layer 1:** 12
+- **Total Hidden Nodes for Layer 2:** 9
+- **Activation Function:** sigmoid
+- **Loss**: binary_crossentropy
+- **Epochs**: 100
+- #### Accuracy: 0.7302623987197876
 ---
 
 ## Installation Guide
@@ -26,8 +64,7 @@ This challenge consists of three technical deliverables. You will do the followi
 ---
 
 ## Usage
-You can use this program by navigating to the folder of the project and run:
-`voila GC_venture_funding_with_deep_learning.ipynb` and `voila venture_funding_with_deep_learning.ipynb` in the terminal
+You can use this program by opening the file: `GC_venture_funding_with_deep_learning.ipynb` in the Google Colab.
 
 ---
 
